@@ -53,12 +53,12 @@ public class SalesController : ControllerBase
         return Ok(sales);
     }
 
-    [HttpGet("user/{userId}")]
-    [Authorize(Roles = "Admin")]
-    public async Task<IActionResult> GetByUser(string userId)
-    {
-        var sales = await _saleService.GetByUserAsync(userId);
-        return Ok(sales);
-    }
+    // [HttpGet("user/{userId}")]
+   // [Authorize(Roles = "Admin")]
+   //  public async Task<IActionResult> GetByUser(string userId)
+   // {
+   //    var sales = await _saleService.GetByUserAsync(userId);
+  //     return Ok(sales);
+  //   }
 }
 
