@@ -169,15 +169,4 @@ Make sure you have installed:
 ### Configuration
 Update your connection string in `appsettings.json`:
 ```json
-"ConnectionStrings": {
-  "DefaultConnection": "Server=YOUR_SERVER_NAME;Database=GraduationProjectDb;Trusted_Connection=True;TrustServerCertificate=True"
-}
-Also configure JWT settings if needed:
 
-
-"Jwt": {
-  "Key": "YourSuperSecretKeyThatIsAtLeast32CharactersLong!",
-  "Issuer": "GraduationProjectAPI",
-  "Audience": "GraduationProjectClient",
-  "ExpireHours": "24"
-}
