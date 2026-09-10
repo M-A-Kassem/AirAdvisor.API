@@ -166,7 +166,5 @@ Make sure you have installed:
 - .NET 8 SDK
 - SQL Server
 - Visual Studio 2022 or VS Code
-### Configuration
-Update your connection string in `appsettings.json`:
-```json
+
 
